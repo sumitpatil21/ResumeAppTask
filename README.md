@@ -25,7 +25,7 @@ Map :  A Map is an object that maps keys to values or is a collection of attribu
 Example
 
 ```bash
-Map details = {'Usrname':'tom','Password':'pass@123'};
+Map details = {'Usrname':'tom','Password':'pass@123'}
 ```
 
 <h4>functions</h4>
