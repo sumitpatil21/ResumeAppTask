@@ -40,3 +40,31 @@ List.update()<br><br>
 
 Generics in Dart provide a way to write reusable code that can work with different types. They allow you to define classes, functions, and interfaces that can operate on a variety of data types without sacrificing type safety. Generics are denoted by using angle brackets < > and a type parameter.
 # ResumeAppTask
+# Status Bar & Device Orientation
+## AppBar Both
+```bash
+ return Scaffold(
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        systemOverlayStyle: SystemUiOverlayStyle(statusBarColor: Colors.green),
+      ),
+    );
+```
+## Globle 
+```bash
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+      statusBarColor: Colors.red,
+    ));
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home:StatusBar(),
+    );
+  }
+}
+```
