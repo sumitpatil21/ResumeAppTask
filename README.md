@@ -17,7 +17,7 @@ removeRange()
 # Example
 
 ```bash
- List sports = ['Sumit', 'Naresh', 'Rohon', 'Divy']
+ List sports = ['Sumit', 'Naresh', 'Rohan', 'Divy']
 ```
 <h3>What is Map</h3><br>
 Map :  A Map is an object that maps keys to values or is a collection of attribute-value pairs.
