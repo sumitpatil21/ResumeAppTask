@@ -51,7 +51,7 @@ Generics in Dart provide a way to write reusable code that can work with differe
       ),
     );
 ```
-## Globle 
+## Global 
 ```bash
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
